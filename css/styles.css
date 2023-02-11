@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body{
+    background-image: url(https://github.com/Jie1020/image-resources/blob/main/tea.jpg?raw=true);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.tea-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, p{
+    text-align: center;
+
+}
+h1{
+    font-size: 40px;
+    margin:0px;
+}
+h2{
+    font-size: 35px;
+}
+
+.tea-menu{
+    width: 80%;
+    max-width: 500px;
+    background-color: rgba(167, 114, 125, 0.651);
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 20px;
+
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+.tea-items p{
+    display: inline-block;
+}
+
+.tea-flavor, .collections-flavor{
+    text-align: left;
+    width: 75%;
+    margin-top: 0;
+}
+.tea-price, .collections-price{
+    text-align: right;
+    width: 20%;
+    margin-top: 0;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color:aquamarine
+}
